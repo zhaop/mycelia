@@ -1,0 +1,10 @@
+135 in ports
+any [3, 4] in [2k, 2,]
+not all ports not in [20, 21, 23]
+all ports < 1024
+not min ports > 1024
+true
+sum bytes >= 2G or min bytes > 20M
+sum bytes > 1k and sum bytes < 10k
+udp and sum bytes = 42
+sum(bytes) = sum[1, 2, 3]

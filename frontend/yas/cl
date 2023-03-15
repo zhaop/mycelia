@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rm -v Yas*.js Yas*.java Yas*.class Yas*.interp Yas*.tokens

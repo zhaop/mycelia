@@ -1,0 +1,4 @@
+#!/bin/sh
+
+antlr4 -Dlanguage=JavaScript Yas.g4
+# antlr4 -Dlanguage=Java Yas.g4 && javac Yas*.java

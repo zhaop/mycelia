@@ -1,0 +1,37 @@
+{
+  "name": "mycelia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "build": "parcel build frontend/index.html",
+    "start": "npm run build && NODE_ENV=dev node backend/index.js",
+    "backend": "PORT=8080 NODE_ENV=dev node backend/index.js",
+    "frontend": "parcel watch frontend/index.html --no-hmr"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "antlr4": "^4.7.2",
+    "chroma-js": "^2.1.0",
+    "csv-parse": "^4.8.2",
+    "cytoscape": "^3.12.1",
+    "cytoscape-fcose": "^1.0.0",
+    "fuse.js": "^3.4.5",
+    "ipaddr.js": "^1.9.1",
+    "localforage": "^1.7.3",
+    "lodash": "^4.17.15",
+    "mithril": "^2.0.4",
+    "purecss": "^1.0.1",
+    "regenerator-runtime": "^0.13.3",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "stats.js": "^0.17.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
